@@ -45,15 +45,15 @@
 //  alert("You enterd right data")
 
 //4 davaleba
-// let userInput = prompt("Enter a number:");
-// let number = parseInt(userInput);
-// let sumOfDigits = 0;
+let userInput = prompt("Enter a number:");
+let number = parseInt(userInput);
+let result = 0;
 
-// while (number !== 0) {
-//     let digit = number % 10;
-//     sumOfDigits += digit;
-//     number = (number - digit) / 10;
-// } alert("Sum of digits: " + sumOfDigits);
+while (number) {
+    result += number% 10;
+    number = Math.floor(number/10);
+  
+} console.log(result);
 
 
 
