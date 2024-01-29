@@ -37,8 +37,12 @@
 
 //3 davaleba 
 
-
-
+// let number = prompt("Enter a number:");
+// while(isNaN(number)){
+//     alert("Error, you enterd wrong data")
+//     number = prompt("Enter a number again:");
+// }
+//  alert("You enterd right data")
 
 //4 davaleba
 // let userInput = prompt("Enter a number:");
